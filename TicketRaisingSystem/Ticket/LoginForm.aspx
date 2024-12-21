@@ -48,7 +48,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-12 col-lg-10">
                         <div class="wrap d-md-flex" style="border-radius: 40px!important">
-                            <div class="img ImgCls" style="background-image: url(/LogFiles/images/IMG_20160413_194601.jpg);">
+                            <div class="img ImgCls" style="background-image: url(/LogFiles/images/SRM.jpg);">
                             </div>
                             <div class="login-wrap p-4 p-md-5">
                                 <div class="d-flex">
