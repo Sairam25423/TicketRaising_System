@@ -156,16 +156,16 @@ namespace TicketRaisingSystem.Ticket
                     str.Close();
                     MailText = MailText.Replace("PIN", Otp);
                     MailText = MailText.Replace("UserName", Email);
-                    mail.From = new MailAddress("sairamb.netdeveloper@gmail.com");
+                    mail.From = new MailAddress("Example@gmail.com");
                     mail.To.Add(Email);
-                    MailAddress bcc1 = new MailAddress("sairamb.netdeveloper@gmail.com");
+                    MailAddress bcc1 = new MailAddress("Example@gmail.com");
                     mail.Subject = "Validate OTP (One Time Passcode)";
                     mail.Bcc.Add(bcc1);
                     mail.Body = MailText;
                     mail.IsBodyHtml = true;
                     using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
                     {
-                        smtp.Credentials = new NetworkCredential("sairamb.netdeveloper@gmail.com", "rkiqodcjajtdmulm");
+                        smtp.Credentials = new NetworkCredential("Example@gmail.com", "abcdefghijklmnop");
                         smtp.EnableSsl = true;
                         smtp.Send(mail);
                         Result = true;
