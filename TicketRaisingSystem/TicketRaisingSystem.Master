@@ -194,7 +194,7 @@
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <span class="mr-2 d-none d-lg-inline text-gray-600 small"><%: Session["UserName"] != null ? Session["UserName"].ToString() : "Guest" %></span>
                                     <img class="img-profile rounded-circle"
-                                        src="\logfiles\images\IMG_20160413_194601.jpg">
+                                        src="\logfiles\images\SRM.jpg">
                                 </a>
                                 <!-- Dropdown - User Information -->
                                 <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
