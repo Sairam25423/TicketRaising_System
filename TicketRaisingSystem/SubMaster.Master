@@ -1,0 +1,13 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SubMaster.master.cs" MasterPageFile="~/TicketRaisingSystem.Master" Inherits="TicketRaisingSystem.SubMaster" %>
+
+<%@ Register Src="~/SideMenu.ascx" TagName="SideMenu" TagPrefix="ux" %>
+
+<asp:Content ID="Head" runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
+    <ux:SideMenu runat="server" ID="SideMenuContol" />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Body" runat="server" ContentPlaceHolderID="ContentPlaceHolder2">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

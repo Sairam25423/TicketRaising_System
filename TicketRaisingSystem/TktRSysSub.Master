@@ -1,0 +1,13 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" MasterPageFile="~/TktRSySMain.Master" CodeBehind="TktRSysSub.master.cs" Inherits="TicketRaisingSystem.TktRSysSub" %>
+
+<%@ Register Src="~/TktRSysSideMenu.ascx" TagName="TktRSysSideMenu" TagPrefix="sb" %>
+
+<asp:Content ID="Head" ContentPlaceHolderID="head" runat="server">
+    <sb:TktRSysSideMenu />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Body" runat="server" ContentPlaceHolderID="body">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
